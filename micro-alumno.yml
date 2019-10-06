@@ -1,6 +1,6 @@
 #HTTP Server
 server:
-  port: ${PORT:2000}
+  port: 2000
 
 #Discovery Server Access
 eureka:
