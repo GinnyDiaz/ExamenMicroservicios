@@ -1,0 +1,15 @@
+#HTTP Server
+server:
+  port: 2000
+
+#Discovery Server Access
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
+  instance:
+    status-page-url-path: /infoAlumno
+    health-check-url-path: /healthAlumno
+    metadata-map:
+       app-owner: Georgina Diaz
+       description: Microservicio para registro y actualizacion de datos de alumnos 
